@@ -168,281 +168,328 @@ body {
   }
 }
 
-.container__about-hero {
+.container__pricing-hero {
   max-width: 1860px;
   width: calc(100% - 60px);
   min-height: 158px;
-  margin-top: 109px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 109px auto 0 auto;
   border-bottom: 1px solid #E4E4E7;
   padding: 0 132px 50px 132px;
   display: flex;
   gap: 100px;
   font-family: "Be Vietnam Pro", sans-serif;
-  line-height: 150%;
-  letter-spacing: 0%;
 
   h1 {
     width: 748px;
-    min-height: 72px;
-    font-weight: 600;
-    font-style: SemiBold;
-    color: #262626;
     font-size: 48px;
-    margin-top: 18px;
-    margin-bottom: 68px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #262626;
+    margin-top: 45px;
   }
 
   p {
     width: 748px;
-    min-height: 108px;
-    font-weight: 400;
-    font-style: Regular;
-    color: #59595A;
     font-size: 18px;
-    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #59595A;
   }
 }
 
-.container__achievements {
+.pricing-toggle {
+    width: 272px;
+    height: 79px;
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 100px auto 50px auto;
+    display: flex;
+    gap: 0;
+    border: 1px solid #F1F1F3;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+
+    button {
+      width: 132px;
+      height: 55px;
+      border: none;
+      background-color: transparent;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #4C4C4D;
+      style: medium;
+      cursor: pointer;
+      padding: 14px 30px 14px 30px;
+
+      &.active {
+        background-color: #FF9500;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+.container__pricing-section {
   max-width: 1596px;
   width: calc(100% - 324px);
-  min-height: 815px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-
-  .intro {
-    margin-bottom: 80px;
-
-    h2 {
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 500;
-      font-style: Medium;
-      font-size: 48px;
-      line-height: 150%;
-      letter-spacing: 0%;
-      margin-bottom: 6px;
-      color: #333333;
-    }
-
-    p {
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 400;
-      font-style: Regular;
-      font-size: 18px;
-      line-height: 150%;
-      letter-spacing: 0%;
-      color: #59595A;
-    }
-  }
-
-  .achievements-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-
-    .achievement-card {
-      width: calc((100% - 30px) / 2);
-      min-height: 300px;
-      background-color: #FFFFFF;
-      border-radius: 12px;
-      padding: 50px;
-
-      .achievement-icon {
-        width: 66px;
-        height: 66px;
-        border-radius: 8px;
-        padding: 16px;
-        border: 1px solid #FFEACC;
-        background-color: #FFF9F0;
-        margin-bottom: 30px;
-      }
-
-      .card-content {
-        h3 {
-          font-family: "Be Vietnam Pro", sans-serif;
-          font-weight: 500;
-          font-style: Medium;
-          font-size: 24px;
-          line-height: 150%;
-          letter-spacing: 0%;
-          margin-bottom: 14px;
-          color: #262626;
-        }
-
-        p {
-          font-family: "Be Vietnam Pro", sans-serif;
-          font-weight: 400;
-          font-style: Regular;
-          font-size: 18px;
-          line-height: 150%;
-          letter-spacing: 0%;
-          color: #59595A;
-        }
-      }
-    }
-  }
-}
-
-.container__goals {
-  max-width: 1597px;
-  width: calc(100% - 324px);
-  min-height: 1362px;
-  margin-top: 177px;
-  margin-left: auto;
-  margin-right: auto;
-
-  .intro {
-    margin-bottom: 80px;
-
-    h2 {
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 500;
-      font-style: Medium;
-      font-size: 48px;
-      line-height: 150%;
-      letter-spacing: 0%;
-      margin-bottom: 6px;
-      color: #262626;
-    }
-
-    p {
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 400;
-      font-style: Regular;
-      font-size: 18px;
-      line-height: 150%;
-      letter-spacing: 0%;
-      color: #59595A;
-    }
-  }
-
-  .goals-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-
-    .goal-card {
-      width: calc((100% - 30px) / 2);
-      min-height: 327px;
-      background-color: #FFFFFF;
-      border-radius: 12px;
-      padding: 50px;
-
-      .goal-icon {
-        width: 66px;
-        height: 66px;
-        border-radius: 8px;
-        padding: 16px;
-        border: 1px solid #FFEACC;
-        background-color: #FFF9F0;
-        margin-bottom: 30px;
-      }
-
-      .card-content {
-        h3 {
-          font-family: "Be Vietnam Pro", sans-serif;
-          font-weight: 500;
-          font-style: Medium;
-          font-size: 24px;
-          line-height: 150%;
-          letter-spacing: 0%;
-          margin-bottom: 14px;
-          color: #262626;
-        }
-
-        p {
-          font-family: "Be Vietnam Pro", sans-serif;
-          font-weight: 400;
-          font-style: Regular;
-          font-size: 18px;
-          line-height: 150%;
-          letter-spacing: 0%;
-          color: #59595A;
-        }
-      }
-    }
-  }
-}
-
-.container__cta-section {
-  max-width: 1597px;
-  height: 323px;
-  border-radius: 12px;
+  min-height: 1010px;
+  margin: 0 auto;
   background-color: #FFFFFF;
+  border-radius: 12px;
   padding: 80px;
-  margin-top: 80px;
-  margin-bottom: 150px;
-  position: relative;
-  
-  
+  font-family: "Be Vietnam Pro", sans-serif;
 
-  h2{
-    font-family: Be Vietnam Pro;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 48px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    max-width: 1008px;
-    color: #262626;
-    position: relative;
-    z-index: 2;
 
-    span{
-        color:#FF9500;
-    }
-    
-  }
 
-  p{
-    font-family: Be Vietnam Pro;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    max-width: 1008px;
-    color: #4C4C4D;
-    margin-top: 20px;
-    position: relative;
-    z-index: 2;
-  }
-  .cta-image{
-    max-width: 361.5625px;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    position: absolute;
-    top: -21px;
-    right: 210px;
-    z-index: 1;
-    img {
+  .pricing-cards {
+    display: flex;
+    gap: 30px;
+
+    .pricing-card {
+      width: calc((100% - 30px) / 2);
+      background-color: #FCFCFD;
+      border: 1px solid #F1F1F3;
+      border-radius: 12px;
+      padding: 50px 30px 30px 30px;
+
+      .plan-name {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: 61px;
+        background-color: #FFF9F0;
+        border: 1px solid #FFEACC;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #262626;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 169%;
+        margin-bottom: 50px;
+      }
+
+      .price {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 50px;
+
+        span {
+          font-size: 80px;
+          font-weight: 600;
+          line-height: 73%;
+          color: #262626;
+        }
+
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          color: #4C4C4D;
+          line-height: 73%;
+        }
+      }
+
+      .features-box {
+        background-color: #FFFFFF;
+        border: 1px solid #F1F1F3;
+        border-radius: 14px 14px 0 0;
+        padding: 40px;
+
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          color: #262626;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          li {
+            min-height: 48px;
+            border: 1px solid #F1F1F3;
+            border-radius: 8px;
+            padding: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #4C4C4D;
+            line-height: 150%;
+
+            .material-symbols-outlined {
+              width: 32px;
+              height: 32px;
+              border-radius: 6px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 18px;
+              flex-shrink: 0;
+
+              &.check {
+                background-color: #FFF4E5;
+                color: #262626;
+              }
+
+              &.close {
+                background-color: #FFFFFF;
+                border: 1px solid #F1F1F3;
+                color: #262626;
+              }
+            }
+          }
+        }
+      }
+
+      .get-started {
+        width: 100%;
+        height: 67px;
+        background-color: #FF9500;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 0 0 8px 8px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #e68600;
+        }
+      }
     }
   }
-  .cta-button{
-    width: 129px;
-    height: 63px;
-    background-color: #FF9500;
-    color: #FFFFFF;
-    border-radius: 8px;
-    padding: 18px 24px 18px 24px;
-    position: absolute;
-    bottom: 130px;
-    right: 80px;
-    border: none;
-    font-family: Be Vietnam Pro;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    text-align: center;
-    cursor: pointer;
+}
+
+.container__faq-section {
+  max-width: 1596px;
+  width: calc(100% - 324px);
+  min-height: 808px;
+  margin: 150px auto 150px auto;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 100px;
+  display: flex;
+  gap: 120px;
+  font-family: "Be Vietnam Pro", sans-serif;
+
+  .faq-left {
+    width: 408px;
+    flex-shrink: 0;
+
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 120%;
+      color: #262626;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      color: #333333;
+      margin-bottom: 50px;
+    }
+
+    button {
+      width: 130px;
+      height: 63px;
+      background-color: #FFFFFF;
+      border: 1px solid #F1F1F3;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #262626;
+      cursor: pointer;
+    }
+  }
+
+  .faq-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .faq-item {
+      border: 1px solid #F1F1F3;
+      border-radius: 12px;
+      padding: 30px 40px;
+
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #262626;
+        }
+
+        .material-symbols-outlined {
+          width: 52px;
+          height: 52px;
+          background-color: #FFF4E5;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #262626;
+          font-size: 24px;
+          flex-shrink: 0;
+        }
+      }
+
+      &.active {
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #4C4C4D;
+          padding-top: 30px;
+          margin-top: 30px;
+          border-top: 1px solid #F1F1F3;
+        }
+
+        .faq-link {
+          height: 80px;
+          margin-top: 50px;
+          background-color: #F7F7F8;
+          border-radius: 8px;
+          padding: 20px 30px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          span:first-child {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333333;
+          }
+
+          .material-symbols-outlined {
+            width: 40px;
+            height: 40px;
+            background-color: #FFFFFF;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #262626;
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -635,155 +682,188 @@ body {
     }
   }
 
-  .container__about-hero {
-    width: calc(100% - 160px);
-    min-height: 131px;
-    margin-top: 80px;
-    padding: 0 0 40px 0;
-    gap: 80px;
+.container__pricing-hero {
+  width: calc(100% - 160px);
+  min-height: 131px;
+  margin-top: 80px;
+  padding: 0 0 40px 0;
+  gap: 80px;
 
-    h1 {
-      width: 50%;
-      min-height: auto;
-      font-size: 38px;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
-    p {
-      width: 50%;
-      min-height: auto;
-      font-size: 14px;
-      margin-bottom: 0;
-    }
+  h1 {
+    width: 50%;
+    font-size: 38px;
+    line-height: 150%;
+    margin-top: 0;
   }
 
-  .container__achievements {
-    width: calc(100% - 160px);
-    min-height: auto;
-    margin-top: 80px;
+  p {
+    width: 50%;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
 
-    .intro {
-      margin-bottom: 60px;
+.pricing-toggle {
+  width: 220px;
+  height: 57px;
+  padding: 10px;
+  margin: 80px auto 40px auto;
+  border-radius: 8px;
 
-      h2 {
-        font-size: 38px;
-        margin-bottom: 4px;
+  button {
+    width: 100px;
+    height: 37px;
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+}
+
+.container__pricing-section {
+  width: calc(100% - 160px);
+  min-height: auto;
+  padding: 50px;
+  border-radius: 12px;
+
+  .pricing-cards {
+    gap: 20px;
+
+    .pricing-card {
+      width: calc((100% - 20px) / 2);
+      padding: 40px 24px 24px 24px;
+      border-radius: 12px;
+
+      .plan-name {
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 40px;
       }
 
-      p {
-        font-size: 14px;
+      .price {
+        margin-bottom: 40px;
+
+        span {
+          font-size: 60px;
+        }
+
+        p {
+          font-size: 16px;
+        }
       }
-    }
 
-    .achievements-list {
-      gap: 20px;
+      .features-box {
+        padding: 30px;
+        border-radius: 10px 10px 0 0;
 
-      .achievement-card {
-        width: calc((100% - 20px) / 2);
-        padding: 40px;
-
-        .achievement-icon {
-          width: 56px;
-          height: 56px;
-          padding: 14px;
+        h3 {
+          font-size: 18px;
           margin-bottom: 24px;
         }
 
-        .card-content {
-          h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-          }
+        ul {
+          gap: 16px;
 
-          p {
+          li {
+            min-height: 44px;
+            padding: 12px;
+            gap: 8px;
             font-size: 14px;
+
+            .material-symbols-outlined {
+              width: 24px;
+              height: 24px;
+              font-size: 16px;
+              border-radius: 4px;
+            }
           }
         }
       }
-    }
-  }
 
-  .container__goals {
-    width: calc(100% - 160px);
-    min-height: auto;
-    margin-top: 100px;
-
-    .intro {
-      margin-bottom: 60px;
-
-      h2 {
-        font-size: 38px;
-        margin-bottom: 4px;
-      }
-
-      p {
+      .get-started {
+        height: 57px;
         font-size: 14px;
-      }
-    }
-
-    .goals-list {
-      gap: 20px;
-
-      .goal-card {
-        width: calc((100% - 20px) / 2);
-        min-height: 253px;
-        padding: 40px;
-
-        .goal-icon {
-          width: 56px;
-          height: 56px;
-          padding: 14px;
-          margin-bottom: 24px;
-        }
-
-        .card-content {
-          h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-          }
-
-          p {
-            font-size: 14px;
-          }
-        }
+        border-radius: 0 0 6px 6px;
       }
     }
   }
+}
 
-  .container__cta-section {
-    height: 250px;
-    padding: 60px;
-    margin-top: 60px;
-    margin-bottom: 100px;
+.container__faq-section {
+  width: calc(100% - 160px);
+  min-height: auto;
+  margin: 100px auto 100px auto;
+  padding: 80px;
+  gap: 80px;
+  border-radius: 12px;
+
+  .faq-left {
+    width: 350px;
 
     h2 {
-      max-width: 760px;
       font-size: 38px;
     }
 
     p {
-      max-width: 760px;
       font-size: 14px;
-      margin-top: 14px;
+      margin-bottom: 40px;
     }
 
-    .cta-image {
-      max-width: 280px;
-      top: -15px;
-      right: 184px;
-    }
-
-    .cta-button {
-      width: 103px;
+    button {
+      width: 110px;
       height: 49px;
-      padding: 14px 20px;
-      right: 60px;
-      bottom: 101px;
       font-size: 14px;
       border-radius: 6px;
     }
   }
+
+  .faq-right {
+    gap: 20px;
+
+    .faq-item {
+      padding: 24px 30px;
+      border-radius: 10px;
+
+      .faq-question {
+        h3 {
+          font-size: 16px;
+        }
+
+        .material-symbols-outlined {
+          width: 44px;
+          height: 44px;
+          font-size: 20px;
+          border-radius: 6px;
+        }
+      }
+
+      &.active {
+        p {
+          font-size: 14px;
+          padding-top: 24px;
+          margin-top: 24px;
+        }
+
+        .faq-link {
+          height: 64px;
+          margin-top: 40px;
+          padding: 16px 24px;
+          border-radius: 6px;
+
+          span:first-child {
+            font-size: 14px;
+          }
+
+          .material-symbols-outlined {
+            width: 32px;
+            height: 32px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
 
   .footer {
     padding: 60px 0 20px 0;
@@ -973,200 +1053,208 @@ body {
     }
   }
 
-  .container__about-hero {
-    width: calc(100% - 32px);
-    margin-top: 50px;
-    padding: 0 0 30px 0;
+.container__pricing-hero {
+  width: calc(100% - 32px);
+  min-height: auto;
+  margin-top: 50px;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h1 {
+    width: 100%;
+    font-size: 28px;
+    line-height: 150%;
+    margin: 0;
+  }
+
+  p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+  }
+}
+
+.pricing-toggle {
+  width: 220px;
+  height: 61px;
+  padding: 10px;
+  margin: 50px auto 30px auto;
+  border-radius: 8px;
+
+  button {
+    width: 100px;
+    height: 41px;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+}
+
+.container__pricing-section {
+  width: calc(100% - 32px);
+  min-height: auto;
+  padding: 20px;
+  border-radius: 12px;
+
+  .pricing-cards {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 30px;
 
-    h1 {
+    .pricing-card {
       width: 100%;
-      font-size: 28px;
-      line-height: 150%;
-      margin: 0;
-    }
+      padding: 30px 20px 20px 20px;
+      border-radius: 12px;
 
-    p {
-      width: 100%;
-      font-size: 14px;
-      line-height: 150%;
-      margin: 0;
-    }
-  }
-
-  .container__achievements {
-    width: calc(100% - 32px);
-    margin-top: 50px;
-
-    .intro {
-      margin-bottom: 40px;
-
-      h2 {
-        font-size: 28px;
-        line-height: 150%;
-        margin-bottom: 4px;
+      .plan-name {
+        height: 45px;
+        font-size: 16px;
+        margin-bottom: 30px;
+        border-radius: 4px;
       }
 
-      p {
-        font-size: 14px;
-        line-height: 150%;
-      }
-    }
+      .price {
+        margin-bottom: 30px;
 
-    .achievements-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      .achievement-card {
-        width: 100%;
-        padding: 30px;
-        border-radius: 10px;
-
-        .achievement-icon {
-          width: 56px;
-          height: 56px;
-          padding: 14px;
-          margin-bottom: 24px;
-          border-radius: 6px;
+        span {
+          font-size: 50px;
         }
 
-        .card-content {
-          h3 {
-            font-size: 18px;
-            line-height: 150%;
-            margin-bottom: 6px;
-          }
+        p {
+          font-size: 14px;
+        }
+      }
 
-          p {
+      .features-box {
+        padding: 20px;
+        border-radius: 10px 10px 0 0;
+
+        h3 {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          gap: 14px;
+
+          li {
+            min-height: auto;
+            padding: 12px;
+            gap: 8px;
             font-size: 14px;
-            line-height: 150%;
+            align-items: flex-start;
+            border-radius: 6px;
+
+            .material-symbols-outlined {
+              width: 24px;
+              height: 24px;
+              font-size: 16px;
+              border-radius: 4px;
+            }
           }
         }
       }
-    }
-  }
 
-  .container__goals {
-    width: calc(100% - 32px);
-    margin-top: 50px;
-
-    .intro {
-      margin-bottom: 40px;
-
-      h2 {
-        font-size: 28px;
-        line-height: 150%;
-        margin-bottom: 4px;
-      }
-
-      p {
+      .get-started {
+        height: 57px;
         font-size: 14px;
-        line-height: 150%;
-      }
-    }
-
-    .goals-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      .goal-card {
-        width: 100%;
-        padding: 30px;
-        border-radius: 10px;
-
-        .goal-icon {
-          width: 56px;
-          height: 56px;
-          padding: 14px;
-          margin-bottom: 24px;
-          border-radius: 6px;
-        }
-
-        .card-content {
-          h3 {
-            font-size: 18px;
-            line-height: 150%;
-            margin-bottom: 6px;
-          }
-
-          p {
-            font-size: 14px;
-            line-height: 150%;
-          }
-        }
+        border-radius: 0 0 6px 6px;
       }
     }
   }
+}
 
-  .container__cta-section {
+.container__faq-section {
+  width: calc(100% - 32px);
+  min-height: auto;
+  margin: 50px auto 50px auto;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .faq-left {
     width: 100%;
-    min-height: 324px;
-    height: 324px;
-    padding: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    position: relative;
-    overflow: hidden;
 
     h2 {
-      max-width: 300px;
       font-size: 28px;
       line-height: 120%;
-      margin: 0;
-      position: relative;
-      z-index: 2;
-
-      span {
-        color: #FF9500;
-      }
+      margin-bottom: 8px;
     }
 
     p {
-      max-width: 290px;
       font-size: 14px;
       line-height: 150%;
-      margin-top: 14px;
-      position: relative;
-      z-index: 2;
+      margin-bottom: 20px;
     }
 
-    .cta-button {
-      width: 103px;
+    button {
+      width: 104px;
       height: 49px;
-      padding: 14px 20px;
-      margin-top: 36px;
-      border-radius: 6px;
-      background-color: #FF9500;
-      color: #FFFFFF;
-      border: none;
       font-size: 14px;
-      font-weight: 600;
-      line-height: 150%;
-      cursor: pointer;
-      position: relative;
-      left: auto;
-      right: auto;
-      bottom: auto;
-      z-index: 2;
-    }
-
-    .cta-image {
-      width: 190px;
-      height: 190px;
-      max-width: none;
-      position: absolute;
-      right: -18px;
-      top: 205px;
-      top: auto;
-      z-index: 1;
+      border-radius: 6px;
     }
   }
+
+  .faq-right {
+    gap: 20px;
+
+    .faq-item {
+      padding: 20px;
+      border-radius: 10px;
+
+      .faq-question {
+        align-items: flex-start;
+        gap: 10px;
+
+        h3 {
+          font-size: 16px;
+          line-height: 150%;
+        }
+
+        .material-symbols-outlined {
+          width: 40px;
+          height: 40px;
+          font-size: 20px;
+          border-radius: 6px;
+        }
+      }
+
+      &.active {
+        p {
+          font-size: 14px;
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+
+        .faq-link {
+          min-height: 64px;
+          height: auto;
+          margin-top: 30px;
+          padding: 14px;
+          gap: 12px;
+          border-radius: 6px;
+
+          span:first-child {
+            font-size: 14px;
+            line-height: 150%;
+          }
+
+          .material-symbols-outlined {
+            width: 32px;
+            height: 32px;
+            font-size: 18px;
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+  }
+}
 
   .footer {
     padding: 50px 0 24px 0;
